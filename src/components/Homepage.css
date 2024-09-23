@@ -1,0 +1,38 @@
+.product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensures the image fits within the box while keeping its aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners for a more polished look */
+  }
+  
+  /* Homepage.css */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-tile {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
